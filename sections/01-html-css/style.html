@@ -1,0 +1,68 @@
+<DOCTYPE html>
+    <head>
+        <title>Styles page</title>
+        <style>
+            table{
+                border:1px solid black;
+                border-collapse: collapse;
+            }
+            td,tr{
+                border:1px solid black;
+                padding: 10px;
+                text-align: center;
+            }
+            @media (min-width: 768px){
+               body{
+                background-color: red;
+               }
+            }
+            @media (max-width: 767px){
+                body{
+                    background-color: blue;
+                }
+            }
+            #hello{
+                color: green;
+            }
+            h1{
+                color: blue;
+            }
+        
+        </style>
+    </head>
+    <body>
+        <table>
+            <th>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Gender</th>
+                    <th>City</th>
+                </tr>
+            </th>
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>25</td>
+                    <td>Male</td>
+                    <td>New York</td>
+                </tr>
+                <tr>
+                    <td>Jane</td>
+                    <td>26</td>
+                    <td>Female</td>
+                    <td>Los Angeles</td>
+                </tr>
+                <tr>
+                    <td>Jim</td>
+                    <td>27</td>
+                    <td>Male</td>
+                    <td>Chicago</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+        <h1 id="hello">Hello World</h1>
+    </body>
+</DOCTYPE>
