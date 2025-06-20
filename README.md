@@ -42,7 +42,7 @@ Each section contains:
 
 - ✅ Introduction
 - ✅ HTML, CSS (basics completed)
-- ⏳ Git (upcoming)
+- ✅ Git (upcoming)
 - ⏳ Python (upcoming)
 - ⏳ Django (upcoming)
 - ⏳ SQL, Models, and Migrations (upcoming)
